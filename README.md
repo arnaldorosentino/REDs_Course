@@ -20,11 +20,11 @@ The course is designed for professionals, researchers, and academics in the fiel
 
 ### Part 1: Theoretical Foundation
 
-1. [**Module 1: General Aspects of the Brazilian Power Sector**]
+1. **Module 1: General Aspects of the Brazilian Power Sector**
    - Institutions
    - Sector Agents
      
-3. [**Module 2: Distribution Systems**]
+3. **Module 2: Distribution Systems**
    - Distribution Systems in Brazil
    - Curiosities about the Origin of Distribution Systems
    - Structure of Distribution Systems
@@ -35,24 +35,24 @@ The course is designed for professionals, researchers, and academics in the fiel
    - Electrical Losses in Distribution Systems
    - Perspectives and Challenges
      
-4. [**Module 3: Distributed Energy Resources (DERs)**]
+4. **Module 3: Distributed Energy Resources (DERs)**
    - Distributed Generation
    - Energy Storage
    - Electric Vehicles
    - Demand-Side Management
      
-5. [**Module 4: Power Quality**]
+5. **Module 4: Power Quality**
    - Introduction
    - PQ Impacts of DERs
    - PQ Indicators
      
-6. [**Module 5: Hosting Capacity**]
+6. **Module 5: Hosting Capacity**
    - Introduction
    - Hosting Capacity Approach
 
 ### Part 2: Application with OpenDSS
 
-6. [**Module 6: Fundamentals of Python**]
+6. **Module 6: Fundamentals of Python**
    - Introduction to Python
    - Variables and Data Types
    - Operators and Expressions
@@ -63,7 +63,7 @@ The course is designed for professionals, researchers, and academics in the fiel
    - File Handling
    - Example with Pandas Library for Data Analysis
      
-7. [**Module 7: Basic Modeling and Simulations with OpenDSS**]
+7. **Module 7: Basic Modeling and Simulations with OpenDSS**
    - Introduction
    - OpenDSS Interface
    - OpenDSS Programming Language
@@ -71,11 +71,11 @@ The course is designed for professionals, researchers, and academics in the fiel
    - Basic Modeling and Simulation with OpenDSS
    - Setup and Simulation with Python
 
-8. [**Module 8: Modeling of DERs**]
+8. **Module 8: Modeling of DERs**
    - PVSystem Element
    - Storage Element
      
-9. [**Module 9: Case Studies**](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/Module%209.md)
+9. [**Module 9: Case Studies**](https://github.com/arnaldorosentino/REDs_Course/blob/main/Module%209:%20Case%20Studies.md)
       
    - Hosting Capacity Studies
       - HC analysis with fixed generation allocation.
