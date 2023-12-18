@@ -19,8 +19,8 @@ Since the allocation is carried out randomly, different hosting capacity results
 
 Simulation files:
 
-- File *.dss: [30-Bus_HostingCapacity.dss](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/30-Bus_HostingCapacity.dss)
-- File *.py: [30-Bus_HostingCapacity.py](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/30-Bus_HostingCapacity.py)
+- File *.dss: [30-Bus_HostingCapacity.dss](https://github.com/arnaldorosentino/REDs_Course/blob/main/30-Bus_HostingCapacity.dss)
+- File *.py: [30-Bus_HostingCapacity.py](https://github.com/arnaldorosentino/REDs_Course/blob/main/30-Bus_HostingCapacity.py)
 
 #### 2. HC analysis with PV and Storage System allocation. Storage with time controller
 
@@ -40,25 +40,5 @@ Simulation files:
 
 - File *.dss: [ieee37.dss](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/ieee37.dss)
 - File *.dss: [IEEELineCodes.dss](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/IEEELineCodes.DSS)
-- File *.csv: [IEEE37_BusXY.csv](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/IEEE37_BusXY.csv)
-- File *.py: [37-BUS_PV_Volt-storage.py](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/37-BUS_PV_Volt-storage.py)
-
-#### 3. HC analysis with PV and Storage System allocation. Storage with Volt-Var controller
-
-This topic is similar to the previous one. The difference is that the the storage system was modeled with Volt-Var controller. The same assumptions were adopted. Moreover, the same results were obtained.
-
-Simulation file:
-
-- File *.py: [37-BUS_PV_Volt-var.py](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/37-BUS_PV_Volt-var.py)
-
-*Note:* The *.dss files are the same that the previous one. 
-
-#### 4. HC analysis with PV and Storage System allocation. Storage with Volt-Watt controller
-
-This topic is similar to the Topic 2. The difference is that the the storage system was modeled with Volt-Watt controller. The same assumptions were adopted. Moreover, the same results were obtained.
-
-Simulation file:
-
-- File *.py: [37-BUS_PV_Volt-watt.py](https://github.com/arnaldorosentino/REDS_OpenDSS_Course/blob/main/37-BUS_PV_Volt-watt.py)
-
-*Note:* The *.dss files are the same that the Topic 2. 
+- File *.py: [37-BUS_PV_Volt-storage.py](https://github.com/arnaldorosentino/REDs_Course/blob/main/37-BUS_PV_Volt-storage.py)
+ 
