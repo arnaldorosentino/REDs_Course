@@ -1,6 +1,24 @@
 ## Module 9: Case Studies
 
-### Hosting Capacity Studies
+### A. Setup and Simulation with Python
+
+#### Step by step:
+
+1. Create a virtual Python environment, for example, through PyCharm or VS Code.
+
+2. Once the virtual environment is active, it is important to install some classic libraries such as matplotlib, numpy and pandas to manipulate the data.
+
+3. Afterwards, you must install the python package "py-dss-interface", which makes it possible to perform OpenDSS simulations via Python:
+
+- *pip install py dss interface*
+
+This package has the following contributors: Paulo Radatz, Ênio Viana and Rodolfo Pilar Londero.
+
+- [Documentation](https://py-dss-interface.readthedocs.io/en/latest/)  
+- [GitHub](https://github.com/PauloRadatz/py_dss_interface)
+
+
+### B. Hosting Capacity Studies
 
 #### 1. HC analysis with fixed generation allocation
 
