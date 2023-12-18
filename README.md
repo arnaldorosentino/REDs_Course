@@ -80,8 +80,6 @@ The course is designed for professionals, researchers, and academics in the fiel
    - Hosting Capacity Studies
       - HC analysis with fixed generation allocation.
       - HC analysis with PV and Storage System allocation. Storage with time controller.
-      - HC analysis with PV and Storage System allocation. Storage with Volt-Var controller.
-      - HC analysis with PV and Storage System allocation. Storage with Volt-Watt controller.  
 
 ---
 **Happy Studying!**
