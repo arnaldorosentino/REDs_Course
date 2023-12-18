@@ -1,4 +1,4 @@
-# REDs_Course
+# REDs_Course with OpenDSS
 
 <p align="center">
   <img src="https://github.com/arnaldorosentino/REDS_OpenDSS_Course/assets/104164948/f2dd7b7b-169e-4330-93e2-5f5f324d95ba" alt="Fluxograma" width="550" height="350">
