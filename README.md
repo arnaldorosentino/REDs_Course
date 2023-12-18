@@ -7,7 +7,7 @@
 ## Introduction
 This course is developed and taught by the **NEPSEL Research Group from UFTM (Studies and Planning of Power Sector)**.
 There are 30 theoretical hours and 30 practical hours.
-[**Teaching Plan in Portuguese**](https://github.com/arnaldorosentino/REDs_Course/blob/main/Module%209:%20Case%20Studies.md)
+- [**Teaching Plan in Portuguese**](https://github.com/arnaldorosentino/REDs_Course/blob/main/Module%209:%20Case%20Studies.md)
 
 ### Target Audience
 The course is designed for professionals, researchers, and academics in the field of **electrical engineering**, focusing on the **integration of renewable energies into the electrical grid**.
