@@ -1,0 +1,202 @@
+Clear
+
+// Equivalente de Thevenin
+New Circuit.Fonte phases=3 basekv=138 bus1=Sub model=ideal
+
+
+New Transformer.trafo  phases=3 xhl=0.850000
+~ wdg=1 bus=Sub kV=138 kVA=25000 conn=delta
+~ wdg=2 bus=1 kV=13.8 kVA=25000 conn=wye
+
+
+// LineCode
+New Linecode.Arranjo1 nphases=3 basefreq=60 units=km
+~  r1=0.08447 x1=0.15759 r0=0.16007 x0=0.4924	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo2 nphases=3 basefreq=60 units=km
+~  r1=0.02154 x1=0.01851 r0=0.03066 x0=0.06081	!ohm/km
+!~ c1=3 c0=1      !nF/km
+	
+New Linecode.Arranjo3 nphases=3 basefreq=60 units=km
+~  r1=0.01625 x1=0.02035 r0=0.03213 x0=0.06845	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo4 nphases=3 basefreq=60 units=km
+~  r1=0.11962 x1=0.22239 r0=0.22550 x0=0.69603	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo5 nphases=3 basefreq=60 units=km
+~  r1=0.01437	x1=0.00213	r0=0.01609	x0=0.00863 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo6 nphases=3 basefreq=60 units=km
+~ r1=0.03265	x1=0.05739	r0=0.06097	x0=0.17900    !ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo7 nphases=3 basefreq=60 units=km
+~  r1=0.00434	x1=0.01158	r0=0.00821	x0=0.03448 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo8 nphases=3 basefreq=60 units=km
+~ r1=0.00204 x1=0.00537 r0=0.00689 x0=0.01621 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo9 nphases=3 basefreq=60 units=km
+~ r1=0.03698	x1=0.06951	r0=0.07032	x0=0.21517	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo10 nphases=3 basefreq=60 units=km
+~  r1=0.00463	x1=0.00893	r0=0.00940	x0=0.02796	  !ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo11 nphases=3 basefreq=60 units=km
+~ r1=0.02661	x1=0.04346	r0=0.04772	x0=0.13672 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+	
+New Linecode.Arranjo12 nphases=3 basefreq=60 units=km
+~ r1=0.01920	x1=0.04115	r0=0.03747	x0=0.12807	 !ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo13 nphases=3 basefreq=60 units=km
+~  r1=0.03118	x1=0.05820	r0=0.05878	x0=0.18094 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo14 nphases=3 basefreq=60 units=km
+~  r1=0.01622	x1=0.02959	r0=0.02950	x0=0.09284	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo15 nphases=3 basefreq=60 units=km
+~  r1=0.09378	x1=0.14665	r0=0.19511	x0=0.36341 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo16 nphases=3 basefreq=60 units=km
+~  r1=0.00619	x1=0.00373	r0=0.00658	x0=0.01269 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo17 nphases=3 basefreq=60 units=km
+~  r1=0.00167	x1=0.01310	r0=0.01222	x0=0.03842 	!ohm/km
+!~ c1=3 c0=1      !nF/km 
+
+New Linecode.Arranjo18 nphases=3 basefreq=60 units=km
+~  r1=0.03683	x1=0.06299	r0=0.06764	x0=0.19680 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo19 nphases=3 basefreq=60 units=km
+~  r1=0.00151	x1=0.00459	r0=0.00208	x0=0.01259 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+	
+New Linecode.Arranjo20 nphases=3 basefreq=60 units=km
+~ r1=0.02209	x1=0.04004	r0=0.03930	x0=0.12484 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo21 nphases=3 basefreq=60 units=km
+~ r1=0.03667	x1=0.04962	r0=0.06277	x0=0.15827	 !ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo22 nphases=3 basefreq=60 units=km
+~  r1=0.03420	x1=0.03232	r0=0.05115	x0=0.10485 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo23 nphases=3 basefreq=60 units=km
+~  r1=0.04118	x1=0.01508	r0=0.05092	x0=0.05528 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo24 nphases=3 basefreq=60 units=km
+~ r1=0.03334	x1=0.01210	r0=0.04091	x0=0.04474 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo25 nphases=3 basefreq=60 units=km
+~  r1=0.02498	x1=0.00809	r0=0.02503	x0=0.03190	 !ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo26 nphases=3 basefreq=60 units=km
+~ r1=0.03191	x1=0.01258	r0=0.04462	x0=0.04433 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo27 nphases=3 basefreq=60 units=km
+~  r1=0.00241	x1=0.05442	r0=0.02456	x0=0.16386 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo28 nphases=3 basefreq=60 units=km
+~  r1=0.02437	x1=0.04540	r0=0.04524	x0=0.13987 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Linecode.Arranjo29 nphases=3 basefreq=60 units=km
+~  r1=0.00178	x1=0.00318	r0=0.00381	x0=0.01174 	!ohm/km
+!~ c1=3 c0=1      !nF/km
+
+New Line.Linha1 Phases=3 Bus1=1 Bus2=2 Length=1 units=km linecode=Arranjo1
+New Line.Linha2 Phases=3 Bus1=2 Bus2=3 Length=1 units=km linecode=Arranjo2
+New Line.Linha3 Phases=3 Bus1=3 Bus2=4 Length=1 units=km linecode=Arranjo3
+New Line.Linha4 Phases=3 Bus1=1 Bus2=5 Length=1 units=km linecode=Arranjo4
+New Line.Linha5 Phases=3 Bus1=5 Bus2=6 Length=1 units=km linecode=Arranjo5
+New Line.Linha6 Phases=3 Bus1=5 Bus2=7 Length=1 units=km linecode=Arranjo6
+New Line.Linha7 Phases=3 Bus1=7 Bus2=8 Length=1 units=km linecode=Arranjo7
+New Line.Linha8 Phases=3 Bus1=8 Bus2=9 Length=1 units=km linecode=Arranjo8
+New Line.Linha9 Phases=3 Bus1=5 Bus2=10 Length=1 units=km linecode=Arranjo9
+New Line.Linha10 Phases=3 Bus1=10 Bus2=11 Length=1 units=km linecode=Arranjo10
+New Line.Linha11 Phases=3 Bus1=11 Bus2=12 Length=1 units=km linecode=Arranjo11
+New Line.Linha12 Phases=3 Bus1=12 Bus2=13 Length=1 units=km linecode=Arranjo12
+New Line.Linha13 Phases=3 Bus1=13 Bus2=14 Length=1 units=km linecode=Arranjo13
+New Line.Linha14 Phases=3 Bus1=14 Bus2=15 Length=1 units=km linecode=Arranjo14
+New Line.Linha15 Phases=3 Bus1=15 Bus2=18 Length=1 units=km linecode=Arranjo15
+New Line.Linha16 Phases=3 Bus1=15 Bus2=16 Length=1 units=km linecode=Arranjo16
+New Line.Linha17 Phases=3 Bus1=16 Bus2=17 Length=1 units=km linecode=Arranjo17
+New Line.Linha18 Phases=3 Bus1=15 Bus2=19 Length=1 units=km linecode=Arranjo18
+New Line.Linha19 Phases=3 Bus1=19 Bus2=20 Length=1 units=km linecode=Arranjo19
+New Line.Linha20 Phases=3 Bus1=20 Bus2=21 Length=1 units=km linecode=Arranjo20
+New Line.Linha21 Phases=3 Bus1=21 Bus2=22 Length=1 units=km linecode=Arranjo21
+New Line.Linha22 Phases=3 Bus1=22 Bus2=23 Length=1 units=km linecode=Arranjo22
+New Line.Linha23 Phases=3 Bus1=23 Bus2=24 Length=1 units=km linecode=Arranjo23
+New Line.Linha24 Phases=3 Bus1=24 Bus2=25 Length=1 units=km linecode=Arranjo24
+New Line.Linha25 Phases=3 Bus1=25 Bus2=26 Length=1 units=km linecode=Arranjo25
+New Line.Linha26 Phases=3 Bus1=26 Bus2=27 Length=1 units=km linecode=Arranjo26
+New Line.Linha27 Phases=3 Bus1=23 Bus2=28 Length=1 units=km linecode=Arranjo27
+New Line.Linha28 Phases=3 Bus1=28 Bus2=29 Length=1 units=km linecode=Arranjo28
+New Line.Linha29 Phases=3 Bus1=29 Bus2=30 Length=1 units=km linecode=Arranjo29
+
+New energymeter.medidor element=line.linha1 terminal=1
+
+New Load.Carga1 phases=3 conn=wye Bus1=2 kW=41.4 kvar=17.6 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga2 phases=3 conn=wye Bus1=3 kW=69 kvar=29.4 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga3 phases=3 conn=wye Bus1=4 kW=103.5 kvar=44.1 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga4 phases=3 conn=wye Bus1=5 kW=172.5 kvar=73.5 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga5 phases=3 conn=wye Bus1=6 kW=207 kvar=88.2 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga6 phases=3 conn=wye Bus1=7 kW=368 kvar=156.8 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga7 phases=3 conn=wye Bus1=8 kW=138 kvar=58.8 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga8 phases=3 conn=wye Bus1=9 kW=103.5 kvar=44.1 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga9 phases=3 conn=wye Bus1=10 kW=103.5 kvar=44.1 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga10 phases=3 conn=wye Bus1=11 kW=407.1 kvar=173.4 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga11 phases=3 conn=wye Bus1=12 kW=207 kvar=88.2 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga12 phases=3 conn=wye Bus1=13 kW=69 kvar=29.4 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga13 phases=3 conn=wye Bus1=14 kW=103.5 kvar=44.1 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga14 phases=3 conn=wye Bus1=15 kW=207 kvar=88.2 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga15 phases=3 conn=wye Bus1=16 kW=69 kvar=29.4 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga16 phases=3 conn=wye Bus1=17 kW=213.9 kvar=91.1 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga17 phases=3 conn=wye Bus1=18 kW=69 kvar=29.4 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga18 phases=3 conn=wye Bus1=19 kW=172.5 kvar=73.5 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga19 phases=3 conn=wye Bus1=20 kW=69 kvar=29.4 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga20 phases=3 conn=wye Bus1=21 kW=103.5 kvar=44.1 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga21 phases=3 conn=wye Bus1=22 kW=207 kvar=88.2 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga22 phases=3 conn=wye Bus1=23 kW=144.9 kvar=61.7 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga23 phases=3 conn=wye Bus1=24 kW=207 kvar=88.2 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga24 phases=3 conn=wye Bus1=25 kW=69 kvar=29.4 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga25 phases=3 conn=wye Bus1=26 kW=69 kvar=29.4 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga26 phases=3 conn=wye Bus1=27 kW=41.4 kvar=17.6 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga27 phases=3 conn=wye Bus1=28 kW=317.4 kvar=135.2 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga28 phases=3 conn=wye Bus1=29 kW=103.5 kvar=44.1 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+New Load.Carga29 phases=3 conn=wye Bus1=30 kW=103.5 kvar=44.1 kv=13.8 model=5 vminpu=0.7 vmaxpu=1.2
+
+Set voltagebases = [138 13.8]
+calcvoltagebases
+
+//set mode = daily
+//set stepsize = 1h
+//set number = 24
+solve
+
+
+
+
+
